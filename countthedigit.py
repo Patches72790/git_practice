@@ -13,4 +13,4 @@ def nb_dig(n, d):
             for digit in i:
                 if str(digit) == str(d):
                     count += 1
-    return count
+    return count + " is the number of occurrences of this digit."
